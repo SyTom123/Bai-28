@@ -1,0 +1,76 @@
+/* section-4 */
+.section-4{
+    padding: 8rem;
+}
+.section-4 .inner-head .inner-title h2{
+    font-weight: 450;
+    font-size: 2.8rem;
+    color:var(--color-1);
+    letter-spacing: .175rem;
+    line-height: 3.8rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.section-4 .inner-head .inner-desc p{
+    font-size: 1.7rem;
+    color:var(--color-4);
+    margin-bottom: 3rem;
+    text-align: center;
+    line-height: 2.8rem;
+    letter-spacing: .12rem;
+    font-weight: 400;
+    text-align: center;
+}
+.section-4 .inner-wrap{
+    display: flex;
+    background-color: var(--color-3);
+    box-shadow: 0rem .2rem 4.8rem 0 rgb(0 0 0 / 8%); 
+    border-radius: 2rem;
+    padding: 3rem;
+    margin-bottom: 3rem;
+}
+.section-4 .inner-icon {
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-top: 1rem;
+}
+.section-4 .inner-wrap .inner-desc p{
+    color: var(--color-4);
+    font-size: 1.6rem;
+}
+.section-4 .inner-wrap .inner-desc{
+    margin: 2.5rem 0;
+   
+}
+.section-4 .inner-left img{
+    border-radius: 50%;
+}
+.section-4 .inner-bottom{
+    display: flex;
+}
+.section-4 .inner-name{
+    color: var(--color-1);
+    font-size: 1.7rem;
+    font-weight: 450;
+    margin-bottom: .5rem;
+}
+.section-4 .inner-possition{
+    color: var(--color-2);
+    font-size: 1.5rem;
+}
+.section-4 .inner-right{
+    margin-left: 2rem;
+    transition: all 0.4s ease-in-out;
+}
+.section-4 .inner-right:hover{
+    transform: translate(1.5rem, 0rem);
+}
+/* responsive */
+
+@media (max-width: 575.98px){
+   .section-4 {
+    padding: 8rem 0rem;
+   }
+}
+/* End responsive */
+/* End section-4 */

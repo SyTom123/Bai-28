@@ -1,0 +1,61 @@
+/* section-3 */
+.section-3{
+    background: url(../assets/image/work-process-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 8rem;
+}
+.section-3 .inner-icon{
+    margin-bottom: 1.5rem;
+}
+.section-3 .inner-wrap{
+    display: flex;
+
+}
+.section-3 .inner-head .inner-title h1{
+    color:var(--color-3);
+    font-weight: 500;
+    font-size: 2.8rem;
+    letter-spacing: .025rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.section-3 .inner-head .inner-desc p{
+    letter-spacing: .1rem;
+    margin-bottom: 4rem;
+    color:var(--color-3);
+    letter-spacing: .025rem;
+    line-height: 2.6rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+    text-align: center;
+}
+.section-3 .inner-box{
+     background: var(--color-3);
+     border-radius: 2rem;
+     text-align: center;
+     padding: 3rem 2rem;
+     margin: 2rem 0 3rem;
+     position: relative;
+     z-index: 90;
+     /* box-shadow: 0rem 2rem 48rem 0 rgb(0 0 0 / 8%); */
+     box-shadow: 1rem 1rem #9d83f380;
+     transition: all 0.2s ease;
+}
+.section-3 .inner-box:hover{
+    transform: translate(0rem,-1.8rem);
+}
+.section-3 .inner-box .inner-title {
+    font-size: 1.8rem;
+    margin: 2 0 .5;
+    color:var(--color-1);
+    font-weight: 400;
+}
+.section-3 .inner-box .inner-desc{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color:var(--color-4);
+    letter-spacing: .075rem;
+}
+/* End section-3 */

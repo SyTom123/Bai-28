@@ -1,0 +1,85 @@
+/* section-0 */
+.section-0{
+    /* background: url(../image/banner-bg.png); */
+    background: url(../assets/image/banner-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 3rem;
+    object-fit: cover;
+    background-position: bottom;
+}
+.section-0 .inner-title h1{
+    font-size: 3.6rem;
+    font-weight: 500;
+    color:var(--color-3);
+    line-height: 5.4rem;
+    text-align: center; 
+    margin-bottom: 3rem;
+    margin-top: 20rem;  
+    letter-spacing: .14rem;
+}
+
+.section-0 .inner-desc p{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--color-3);
+    line-height: 2.8rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+.section-0 .my-button{
+    text-align: center;
+}
+.section-0 .button-1{
+    background: var(--color-2);
+    transition: all 0.5s ease-in-out;
+}
+.section-0 .button-1:hover{
+    background: var(--color-5);
+}
+.section-0 .inner-box{
+    background: var(--color-3);
+    border-radius: 2rem;
+    box-shadow: 0 .2rem 4.8rem 0 rgb(0 0 0 / 10%);
+    padding: 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+.section-0 .inner-box .inner-image {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    object-fit: cover;
+    background: var(--color-5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+    margin-bottom: 3rem;
+}
+.section-0 .inner-box .inner-image:hover{
+    background: var(--color-2);
+}
+.section-0 .inner-box .inner-title h5{
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+    font-size: 2rem;
+}
+.section-0 .inner-box .inner-desc{
+    color: var(--color-4);
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+}
+/* responsive */
+@media (max-width: 767.98px){
+    .section-0 .inner-title h1{
+        font-size: 2.3rem;
+        line-height: 3rem;
+    }
+}
+/* End responsive */
+/* End section-0 */

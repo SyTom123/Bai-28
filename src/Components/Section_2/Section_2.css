@@ -1,0 +1,40 @@
+/* section-2 */
+.section-2{
+    padding: 8rem;
+
+}
+.section-2 .row{
+    justify-content: space-between;
+}
+.section-2 .inner-main{
+    display: flex;
+    justify-content: center;
+}
+.section-2 .inner-title{
+    font-weight: 450;
+    font-size: 2.4rem;
+    line-height: 4.2rem;
+    color: #1e1e1e;
+    letter-spacing: .025rem;
+    margin-bottom: 3rem;
+    position: relative;
+    margin-top: 4rem;
+}
+.section-2 .inner-left{
+    text-align: center;
+}
+.section-2 .inner-right{
+    margin-left: auto;
+}
+.section-2 .inner-left img{
+    width: 28rem;
+    height: auto;
+}
+.section-2 .inner-desc{
+    font-size: 1.7rem;
+    color: var(--color-4);
+    line-height: 2.8rem;
+    letter-spacing: .1rem;
+    font-weight: 350;
+}
+/* End section-2 */

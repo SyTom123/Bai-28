@@ -1,0 +1,51 @@
+/* section-6 */
+.section-6{
+    background: url(../assets/image/fun-facts-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10rem 0rem;
+}
+.section-6 .inner-number h1{
+    font-size: 3.7rem;
+    color: var(--color-3);
+    text-align: center;
+    font-weight: bold;
+    margin: 2.5rem 0rem;
+}
+.section-6 .inner-desc p{
+    color: var(--color-3);
+    text-align: center;
+    font-size: 1.8rem;
+}
+.section-6 .my-col .inner-number{
+    position: relative;
+    transition: all 0.2s ease-in-out;
+}
+.section-6 .my-col:hover .inner-number {
+    margin-top: -1.5rem;
+}
+.section-6 .my-col-1 .inner-number{
+    transition: all 0.1s ease;
+}
+.section-6 .my-col-1:hover .inner-number{
+    margin-top: -1.5rem;
+}
+.section-6 .my-col::after{
+    content: "";
+    position: absolute;
+    background: url(../assets/image/circle-dec.png);
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 3.2rem;
+    top: 7rem;
+    left: 90%;
+}
+
+/* responsive */
+@media (max-width: 991.98px){
+    .section-6 .my-col::after{
+        display: none;
+    }
+}
+/* End section-6 */

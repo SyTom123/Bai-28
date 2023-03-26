@@ -1,0 +1,104 @@
+/* section-5 */
+.section-5{
+    padding: 8rem;
+    background: var(--color-6);
+ }
+.section-5 .inner-head .inner-title h2{
+    text-align: center;
+    font-weight: 400;
+    font-size: 2.8rem;
+    color:var(--color-1);
+    letter-spacing: .175rem;
+    line-height: 3.8rem;
+    margin-bottom: 2rem;
+}
+.section-5 .inner-head .inner-desc p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.65rem;
+    color: var(--color-4);
+    line-height: 2.8rem;
+    letter-spacing: .1rem;
+    margin-bottom: 5rem;
+}
+.section-5 .inner-box{
+    background: var(--color-3);
+    border-radius: 2rem;
+    padding: 3rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+.section-5 .inner-middle{
+    padding: 2rem 7rem 1.3rem;
+    border-radius: 15rem;
+    color: var(--color-3);
+    margin: .5rem 0rem 4rem;
+}
+.section-5 .inner-red{
+    background: var(--color-2);
+}
+.section-5 .inner-blue{
+    background: var(--color-5);
+}
+.section-5 .inner-middle .dolar{
+    font-size: 3.2rem;
+}
+.section-5 .inner-middle .inner-price{
+    font-size:2.8rem;
+}
+.section-5 .inner-middle .period{
+    font-size:1.45rem;
+    display: block;
+}
+.section-5 .inner-top{
+    font-weight: 400;
+    font-size: 1.75rem;
+    letter-spacing: .025rem;
+    color:var(--color-1);
+    width: 18rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    margin: 0rem;
+    margin-bottom: 1rem;
+}
+.section-5 .inner-list{
+    margin: 0;
+    padding: 0rem;
+}
+.section-5 .inner-list li{
+    list-style-type: none;
+    text-align: center;
+}
+.section-5 .inner-list .active{
+    text-align: center;
+    margin-bottom: 1.2rem;
+    font-weight: 400;
+    font-size: 1.35rem;
+    color: var(--color-4);
+    letter-spacing: .025rem;
+}
+.section-5 .inner-list .no-active{
+    text-align: center;
+    margin-bottom: 1.2rem;
+    font-weight: 350;
+    font-size: 1.35rem;
+    color: var(--color-4);
+    letter-spacing: .025rem;
+    text-decoration: line-through;
+}
+.button-2{
+    background: var(--color-5);
+    margin-top: 3rem;
+}
+/* responsive */
+@media (max-width: 575.98px){
+    .section-5 {
+     padding: 8rem 0rem;
+    }
+ }
+ /* End responsive */
+/* End section-5 */

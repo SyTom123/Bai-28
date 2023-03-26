@@ -1,0 +1,50 @@
+/* section-7 */
+.section-7{
+    padding: 80px 0px;
+}
+.section-7 .inner-title h2{
+    font-weight: 450;
+    font-size: 28.5px;
+    color:var(--color-1);
+    letter-spacing: 1.75px;
+    line-height: 38px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.section-7 .inner-desc{
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--color-4);
+    margin-bottom: 30px;
+    text-align: center;
+    letter-spacing: 1.2px;
+}
+.section-7 .inner-image img{
+    width: 100%;
+}
+.section-7 .inner-top h4{
+    font-weight: 450;
+    font-size: 18px;
+    color:var(--color-1);
+    letter-spacing: 0.25px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 25px;
+}
+.section-7 .inner-bottom{
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--color-4);
+    letter-spacing: 0.26px;
+    line-height: 26px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    text-align: center;
+}
+.section-7 .my-btn{
+    text-align: center;
+}
+.section-7 .button-2{
+   margin-top: 10px;
+   margin-bottom: 30px;
+}
